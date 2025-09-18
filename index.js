@@ -10,7 +10,7 @@ const PORT = 3000;
 app.use(cors());
 
 // Load CSV data into memory
-const csvFilePath = path.join('G:/R & D SUCCESS/PINCODE/pincode.csv'); // Update file name as needed
+const csvFilePath = path.join('pincode.csv'); // Update file name as needed
 let data = [];
 
 fs.createReadStream(csvFilePath)
